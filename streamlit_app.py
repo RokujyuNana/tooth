@@ -6,7 +6,7 @@ from PIL import Image
 import tensorflow as tf
 
 # Load the quantized TFLite model
-interpreter = tf.lite.Interpreter(model_path='dental_health_model_quant.tflite')
+interpreter = tf.lite.Interpreter(model_path='tooth_health_model_quant.tflite')
 interpreter.allocate_tensors()
 
 # Get input and output tensors
